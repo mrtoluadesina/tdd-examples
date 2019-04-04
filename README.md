@@ -9,7 +9,7 @@ I will be making use of jest for my testing engine.
 you can install jest using npm
 
 ```
-npm install -g jest
+npm install --save-dev jest
 ```
 
 ## Add two numbers
