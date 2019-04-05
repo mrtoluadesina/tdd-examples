@@ -7,3 +7,7 @@ test('Multiply 2 numbers', () => {
 test('Multiply 5 numbers', () => {
   expect(multiply(3, 5, 2, 7, 6)).toBe(1260);
 });
+
+test('Multiply a positive and a negative number', () => {
+  expect(multiply(2, -5)).toBe(-10);
+});
