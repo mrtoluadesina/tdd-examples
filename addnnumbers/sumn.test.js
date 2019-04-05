@@ -14,8 +14,12 @@ test('add numbers and string', () => {
 
 test('adding decimal numbers', () => {
   expect(sumn(0.1, 0.2)).toBeCloseTo(0.3);
-})
+});
 
 test('adding negative numbers', () => {
   expect(sumn(-1, -3, -5)).toBe(-9);
-})
+});
+
+test('adding negative numbers to positive numbers', () => {
+  expect(sumn(-6, 10, -8, 4)).toBe(0);
+});
