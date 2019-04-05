@@ -15,3 +15,7 @@ test('Divide a negative number by a positive number', () => {
 test('Divide a Negative number by another negative number', () => {
   expect(divide(-49, -7)).toBe(7);
 });
+
+test('Divide a number by zero', () => {
+  expect(divide(25, 0)).toBe(Infinity);
+});
