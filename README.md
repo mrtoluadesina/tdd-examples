@@ -38,3 +38,7 @@ npm install --save-dev jest
 ## Takes two numbers as argument and return the difference between the numbers
 -------------------
 
+
+## Multiply an indefinite amount of arguments
+-------------------
+
