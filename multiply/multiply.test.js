@@ -25,7 +25,7 @@ test('Multiplying Decimal values', () => {
 });
 
 test('Function without any argument', () => {
-  expect(multiply()).toBe('You have not entered any value');
+  expect(multiply()).toBe(1);
 });
 
 test('when zero is passed into the function as the only argument', () => {
