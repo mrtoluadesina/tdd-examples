@@ -1,0 +1,22 @@
+{
+  "name": "tdd-examples",
+  "version": "1.0.0",
+  "description": "Learning to solve problems using the TDD approach. Below is a list of all the problems solved; <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrtoluadesina/tdd-examples.git"
+  },
+  "author": "Tolu Adesina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrtoluadesina/tdd-examples/issues"
+  },
+  "homepage": "https://github.com/mrtoluadesina/tdd-examples#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
