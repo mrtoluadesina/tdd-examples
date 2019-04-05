@@ -15,3 +15,7 @@ test('Multiply a positive and a negative number', () => {
 test('Multiplying strings to return NaN', () => {
   expect(multiply('decagon', 'institute')).toBe('NaN');
 });
+
+test('Multiplying a string and a number', () => {
+  expect(multiply('austine', 12)).toBe('NaN');
+});
