@@ -7,3 +7,7 @@ test('Divide the first parameter of a function by the second, - both are integer
 test('divide a positive number by a negative number', () => {
   expect(divide(10, -2)).toBe(-5);
 });
+
+test('Divide a negative number by a positive number', () => {
+  expect(divide(-20, 4)).toBe(-5);
+});
