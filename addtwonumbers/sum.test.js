@@ -11,3 +11,15 @@ test('add -1 to 3 to equal 2', () => {
 test('add a string and a Number to equal NaN', () => {
   expect(sum('tolu', 3)).toBe('NaN');
 });
+
+test('adds two strings to equal NaN', () => {
+  expect(sum('decagon', 'institute')).toBe('NaN');
+});
+
+test('add two negative numbers -4 and -9 to equal -13', () => {
+  expect(sum(-4, -9)).toBe(-13);
+});
+
+test('enter undefined values to output - enter parameters', () => {
+  expect(sum()).toBe('You have not entered any paramter')
+});
