@@ -34,3 +34,7 @@ npm install --save-dev jest
 ## Add an indefinite amount of numbers
 -------------------
 
+
+## Takes two numbers as argument and return the difference between the numbers
+-------------------
+
