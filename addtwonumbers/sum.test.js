@@ -27,3 +27,7 @@ test('enter undefined values to output - enter parameters', () => {
 test('adds numbers in string \'23\' to \'3\' to equal 26', () => {
   expect(sum('23', '3')).toBe(26);
 });
+
+test('Insert NaN as the only argument to equal NaN', () => {
+  expect(sum(NaN)).toBe('NaN');
+});
