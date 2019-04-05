@@ -19,3 +19,7 @@ test('subtracting negative numbers from each other', () => {
 test('Subtracting strings from each other', () => {
   expect(minus('decagon', 'insitute')).toBe('NaN');
 });
+
+test('Subtracting Special Characters', () => {
+  expect(minus('!', '*')).toBe('NaN');
+});
