@@ -7,3 +7,7 @@ test('Substract a number from the other, 4 - 2 should equal to 2', () => {
 test('subtracting one string and a number, 10 - david', () => {
   expect(minus(10, 'david')).toBe('NaN');
 });
+
+test('Declaring the function without any parameter', () => {
+  expect(minus()).toBe('There is no argument in the function');
+});
