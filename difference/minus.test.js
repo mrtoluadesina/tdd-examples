@@ -27,3 +27,7 @@ test('Subtracting Special Characters', () => {
 test('Subtracting a positive number from a negative number', () => {
   expect(minus(-7, 8)).toBe(-15);
 });
+
+test('Subtracting a negative value that is passed as a string from another negative number', () => {
+  expect(minus(-10, '-2')).toBe(-8);
+});
