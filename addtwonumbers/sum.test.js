@@ -31,3 +31,7 @@ test('adds numbers in string \'23\' to \'3\' to equal 26', () => {
 test('Insert NaN as the only argument to equal NaN', () => {
   expect(sum(NaN)).toBe('NaN');
 });
+
+test('Adding special characters like ! and ( to equal NaN', () => {
+  expect(sum('!', '*')).toBe('NaN');
+});
