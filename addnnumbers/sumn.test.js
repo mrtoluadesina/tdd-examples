@@ -31,3 +31,7 @@ test('adding negative numbers to positive numbers', () => {
 test('adding special characters', () => {
   expect(sumn('!', '*', '-')).toBe('NaN');
 });
+
+test('when the function is called without a parameter', () => {
+  expect(sumn()).toBe(0);
+});
