@@ -23,3 +23,7 @@ test('Subtracting strings from each other', () => {
 test('Subtracting Special Characters', () => {
   expect(minus('!', '*')).toBe('NaN');
 });
+
+test('Subtracting a positive number from a negative number', () => {
+  expect(minus(-7, 8)).toBe(-15);
+});
