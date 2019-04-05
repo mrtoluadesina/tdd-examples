@@ -15,3 +15,7 @@ test('Declaring the function without any parameter', () => {
 test('subtracting negative numbers from each other', () => {
   expect(minus(-5, -6)).toBe(1);
 });
+
+test('Subtracting strings from each other', () => {
+  expect(minus('decagon', 'insitute')).toBe('NaN');
+});
