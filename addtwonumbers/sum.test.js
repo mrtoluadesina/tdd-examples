@@ -24,6 +24,6 @@ test('enter undefined values to output - enter parameters', () => {
   expect(sum()).toBe('You have not entered any paramter')
 });
 
-test('adds numbers in string \'23\' to \'3\' to equal NaN', () => {
-  expect(sum('23', '3')).toBe('NaN');
+test('adds numbers in string \'23\' to \'3\' to equal 26', () => {
+  expect(sum('23', '3')).toBe(26);
 });

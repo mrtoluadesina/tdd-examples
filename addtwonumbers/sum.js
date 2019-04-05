@@ -4,7 +4,7 @@ function sum(a, b) {
   } else if (isNaN(a) || isNaN(b)) {
     return 'NaN';
   } else {
-    return a + b;
+    return +a + +b;
   }
 }
 module.exports = sum;
