@@ -27,3 +27,7 @@ npm install --save-dev jest
 ## Add two numbers
 -------------------
 
+
+## Add an indefinite amount of numbers
+-------------------
+
