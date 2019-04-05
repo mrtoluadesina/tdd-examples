@@ -1,0 +1,2 @@
+const multiply = require('./multiply');
+
