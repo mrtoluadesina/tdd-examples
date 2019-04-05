@@ -35,3 +35,7 @@ test('Insert NaN as the only argument to equal NaN', () => {
 test('Adding special characters like ! and ( to equal NaN', () => {
   expect(sum('!', '*')).toBe('NaN');
 });
+
+test('Adding 2 Decimal numbers - 0.1 and 0.2 to be close to 0.3', () => {
+  expect(sum(0.1, 0.2)).toBeCloseTo(0.3);
+});
