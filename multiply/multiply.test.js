@@ -19,3 +19,7 @@ test('Multiplying strings to return NaN', () => {
 test('Multiplying a string and a number', () => {
   expect(multiply('austine', 12)).toBe('NaN');
 });
+
+test('Multiplying Decimal values', () => {
+  expect(multiply(0.2, 0.5)).toBe(0.1);
+});
