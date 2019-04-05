@@ -23,3 +23,7 @@ test('adding negative numbers', () => {
 test('adding negative numbers to positive numbers', () => {
   expect(sumn(-6, 10, -8, 4)).toBe(0);
 });
+
+test('adding special characters', () => {
+  expect(sumn('!', '*', '-')).toBe('NaN');
+});
