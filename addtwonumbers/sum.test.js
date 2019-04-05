@@ -39,3 +39,7 @@ test('Adding special characters like ! and ( to equal NaN', () => {
 test('Adding 2 Decimal numbers - 0.1 and 0.2 to be close to 0.3', () => {
   expect(sum(0.1, 0.2)).toBeCloseTo(0.3);
 });
+
+test('Adding 2 values 0.915 and 0.11 to equal 1.025', () => {
+  expect(sum(0.915, 0.11)).toBeCloseTo(1.025);
+});
