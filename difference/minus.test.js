@@ -11,3 +11,7 @@ test('subtracting one string and a number, 10 - david', () => {
 test('Declaring the function without any parameter', () => {
   expect(minus()).toBe('There is no argument in the function');
 });
+
+test('subtracting negative numbers from each other', () => {
+  expect(minus(-5, -6)).toBe(1);
+});
