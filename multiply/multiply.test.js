@@ -23,3 +23,7 @@ test('Multiplying a string and a number', () => {
 test('Multiplying Decimal values', () => {
   expect(multiply(0.2, 0.5)).toBe(0.1);
 });
+
+test('Function without any argument', () => {
+  expect(multiply()).toBe('There are no arguments');
+});
