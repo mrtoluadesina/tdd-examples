@@ -27,3 +27,7 @@ test('Divide zero by any number', () => {
 test('Passing Null as an argument into the function', () => {
   expect(divide(null)).toBe('NaN');
 });
+
+test('Dividing a number with special characters', () => {
+  expect(divide(10, NaN)).toBe('NaN');
+});
