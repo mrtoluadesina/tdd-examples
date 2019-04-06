@@ -22,4 +22,8 @@ test('Divide a number by zero', () => {
 
 test('Divide zero by any number', () => {
   expect(divide(0, 5)).toBe(0);
-})
+});
+
+test('Passing Null as an argument into the function', () => {
+  expect(divide(null)).toBe('NaN');
+});
