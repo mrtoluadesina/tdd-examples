@@ -42,3 +42,7 @@ npm install --save-dev jest
 ## Multiply an indefinite amount of arguments
 -------------------
 
+
+## Takes two numbers as arguments and returns the first number divided by the second number.
+-------------------
+
