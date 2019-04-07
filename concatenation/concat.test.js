@@ -11,3 +11,7 @@ test('Concatenating a number in string format with a string', () => {
 test('Conatenating a number and a special character', () => {
   expect(concat('Betazoo', '#')).toBe('Betazoo#');
 });
+
+test('Declaring the function with no argument', () => {
+  expect(concat()).toBe(NaN);
+});
