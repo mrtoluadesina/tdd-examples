@@ -15,3 +15,7 @@ test('Conatenating a number and a special character', () => {
 test('Declaring the function with no argument', () => {
   expect(concat()).toBe(NaN);
 });
+
+test('Declaring function with NaN as argument', () => {
+  expect(concat(NaN)).toBe(NaN);
+});
