@@ -48,3 +48,7 @@ npm install --save-dev jest
 ## Takes two numbers as arguments and returns the first number divided by the second number.
 -------------------
 
+
+## Takes two strings as arguments and return the concatenation of the two strings.
+-------------------
+
