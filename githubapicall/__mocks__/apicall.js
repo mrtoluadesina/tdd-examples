@@ -130,9 +130,12 @@ var fake = [
 ]
 
 function login(user) {
-  return new Promise(function(resolve) {
-    resolve(fake);
-  })
+  if (typeof user === 'string') {
+    return new Promise(function(resolve) {
+      resolve(fake);
+    });
+  }
+  throw 'Needs argument';
 }
 
 exports.login = login;
