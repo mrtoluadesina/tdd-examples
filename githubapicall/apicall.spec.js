@@ -9,10 +9,13 @@ test('Function is defined', () => {
 });
 
 test('Function is declared without argument', () => {
-  // return login().then(function(response) {
-  //   expect(response).toThrow('Needs an argument');
-  // });
   expect(function() {
     return login();
-  }).toThrow('Needs argument');
+  }).toThrow('Needs a valid argument');
+  expect(function() {
+    return login(true);
+  }).toThrow('Needs a valid argument');
+  expect(function() {
+    return login({});
+  }).toThrow('Needs a valid argument');
 });
