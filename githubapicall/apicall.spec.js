@@ -1,5 +1,9 @@
-const apicall = require('./apicall');
+const { login } = require('./apicall');
+
+jest.mock('./apicall');
 
 test('username is available on github', () => {
-  expect(apicall(mrtoluadesina)).tobe(true);
+  return login("mrtoluadesina").then(function(response) {
+    expect(response).toBeDefined();
+  })
 });
