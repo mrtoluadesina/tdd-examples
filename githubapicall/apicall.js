@@ -7,7 +7,7 @@ function login(user) {
       return username;
     });
   } 
-  throw 'Needs an argument';
+  throw 'Needs a valid argument';
 }
 
 exports.login = login;

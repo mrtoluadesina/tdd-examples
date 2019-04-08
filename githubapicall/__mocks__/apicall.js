@@ -135,7 +135,7 @@ function login(user) {
       resolve(fake);
     });
   }
-  throw 'Needs argument';
+  throw 'Needs a valid argument';
 }
 
 exports.login = login;
