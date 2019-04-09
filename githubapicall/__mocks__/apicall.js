@@ -4,6 +4,7 @@ var fake = [
     "name": "barcoss",
     "full_name": "mrtoluadesina/barcoss",
     "private": false,
+    "login": "mrtoluadesina",
     "owner": {
       "login": "mrtoluadesina",
       "avatar_url": "https://avatars1.githubusercontent.com/u/16652265?v=4",
@@ -36,6 +37,7 @@ var fake = [
     "name": "koboapp",
     "full_name": "ochuko56/koboapp",
     "private": false,
+    "login": "ochuko56",
     "owner": {
       "login": "ochuko56",
       "avatar_url": "https://avatars1.githubusercontent.com/u/16652265?v=4",
@@ -68,6 +70,7 @@ var fake = [
     "name": "xonsole",
     "full_name": "ochuko56/xonsole",
     "private": false,
+    "login": "ochuko56",
     "owner": {
       "login": "ochuko56",
       "avatar_url": "https://avatars1.githubusercontent.com/u/16652265?v=4",
@@ -100,6 +103,7 @@ var fake = [
     "name": "buboox",
     "full_name": "mrtoluadesina/buboox",
     "private": false,
+    "login": "mrtoluadesina",
     "owner": {
       "login": "mrtoluadesina",
       "avatar_url": "https://avatars1.githubusercontent.com/u/16652265?v=4",
