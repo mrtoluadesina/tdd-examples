@@ -30,25 +30,28 @@ npm install --save-dev jest
 ```
 
 ## Add two numbers
--------------------
-
+<br>
 
 ## Add an indefinite amount of numbers
--------------------
+<br>
 
 
 ## Takes two numbers as argument and return the difference between the numbers
--------------------
+<br>
 
 
 ## Multiply an indefinite amount of arguments
--------------------
+<br>
 
 
 ## Takes two numbers as arguments and returns the first number divided by the second number.
--------------------
+<br>
 
 
 ## Takes two strings as arguments and return the concatenation of the two strings.
--------------------
+<br>
+
+
+## Takes a username as an argument and makes a call to GitHub API and returns all the repositories owned by the user as an array.
+<br>
 
