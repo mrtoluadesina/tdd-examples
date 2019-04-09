@@ -20,8 +20,14 @@ test('Function is declared without argument', () => {
   }).toThrow('Needs a valid argument');
 });
 
-test('Function call returns returns an array of objects', () => {
+test('Function call returns an array', () => {
   return login('mrtoluadesina').then(function(response) {
     expect(response).toEqual(expect.any(Array));
   });
+});
+
+test('Function call returns an array of objects', () => {
+  return login('ochuko56').then(function(response) {
+    expect.arrayContaining([expect.objectContaining({'login' : 'ochuko56'})]);
+  })
 });
