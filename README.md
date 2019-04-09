@@ -51,3 +51,7 @@ npm install --save-dev jest
 ## Takes two strings as arguments and return the concatenation of the two strings.
 <br>
 
+
+## Takes a username as an argument and makes a call to GitHub API and returns all the repositories owned by the user as an array.
+<br>
+
