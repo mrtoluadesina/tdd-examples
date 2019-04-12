@@ -1,7 +1,5 @@
 const { login } = require('./apicall');
 
-jest.mock('./apicall');
-
 test('Function is defined', () => {
   return login("mrtoluadesina").then(function(response) {
     expect(response).toBeDefined();
@@ -26,8 +24,14 @@ test('Function call returns an array', () => {
   });
 });
 
+test('username not found', () => {
+  return login('mrtolu').catch(function(res) {
+    expect(res).toBe(err.status);
+  })
+});
+
 test('Function call returns an array of objects', () => {
-  return login('ochuko56').then(function(response) {
-    expect.arrayContaining([expect.objectContaining({'login' : 'ochuko56'})]);
+  return login('mrtoluadesina').then(function(response) {
+    expect.arrayContaining([expect.objectContaining({'login' : 'mrtoluadesina'})]);
   })
 });
