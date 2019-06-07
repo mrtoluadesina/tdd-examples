@@ -20,7 +20,7 @@
     "jest": "^24.7.1"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "node-fetch": "^2.3.0"
   }
 }
